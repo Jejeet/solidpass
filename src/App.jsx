@@ -1,24 +1,19 @@
+import banner from "../src/assets/Assets 3/banner_mens.png";
+import Card from "./components/Card";
 
-import styles from './App.module.css';
 
 function App() {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
-    </div>
+   <div>
+    <header>
+      <h1>JEJEET</h1>
+    </header>
+    <img src={banner} alt="" />
+
+    <Card />
+    <Card />
+    <Card />
+   </div>
   );
 }
 
