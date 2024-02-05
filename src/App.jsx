@@ -4,15 +4,18 @@ import Card from "./components/Card";
 
 function App() {
   return (
-   <div>
+   <div class="container m-auto">
     <header>
       <h1>JEJEET</h1>
     </header>
-    <img src={banner} alt="" />
+    <img class="rounded-md" src={banner} alt="" />
 
+    <div  class="grid grid-cols-4 gap-10 my-4">
     <Card />
     <Card />
     <Card />
+    </div>
+    
    </div>
   );
 }
