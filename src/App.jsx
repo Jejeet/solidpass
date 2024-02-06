@@ -11,7 +11,7 @@ function App() {
     <img class="rounded-md" src={banner} alt="" />
 
     <div  class="grid grid-cols-4 gap-10 my-4">
-    <Card />
+    <Card title="Jejeet Table"/>
     <Card />
     <Card />
     </div>
