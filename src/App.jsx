@@ -11,8 +11,8 @@ function App() {
     <img class="rounded-md" src={banner} alt="" />
 
     <div  class="grid grid-cols-4 gap-10 my-4">
-    <Card title="Jejeet Table rounded={true} flat={false}"/>
-    <Card title="Jejeet Hooddie rounded={false} flat={true}"/>
+    <Card rounded={true} flat={false}/>
+    <Card rounded={false} flat={true}/>
     
     </div>
     
